@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+header, footer {
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    background-color: rgb(139, 46, 46);  
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;  
+    margin: 0 auto;  
+    text-align: left;
+    border: 2px solid black; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", Arial, sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 70%;  
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 20px 0; 
+    box-sizing: border-box;
+    background-color:  rgb(61, 84, 164);
+    text-align: center;
+    list-style: none;
+    height: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(61, 84, 164);
+}
+
+nav ul li {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(61, 84, 164);
+    border: 2px solid black;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #06202f;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid green;
+    font-size: 18px;
+}
+
+main {
+    width: 70%; 
+    min-height: 100vh; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(184, 186, 195); 
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content:flex-start; 
+}
+
+/*home.html */
+
+#details, #description {
+    color: rgb(30, 106, 222);
+    font-size: large;
+}
+
+#description {
+    color: rgb(30, 106, 222);
+    font-size: large;
+}
+
+/*skills.html */
+
+#skills {padding: 20px;}
+
+#skills h4 {
+    margin: 20px 0;
+    color: rgb(30, 106, 222);
+}
+
+#skills table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#skills td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+    background-color:white;
+    color: rgb(30, 106, 222);
+    font-weight: bold;
+}
+
+/*work-experience.HTML*/
+
+#experience {
+    padding: 20px;
+    color: rgb(30, 106, 222);
+}
+
+#experience .job {
+    margin-bottom: 30px;
+    border-left: 4px solid rgb(30, 106, 222); 
+    padding-left: 20px;
+}
+
+#experience h4 {
+    margin-bottom: 5px;
+}
+
+#experience .job-title {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+/*eductaion.html:*/
+#education {
+    padding: 20px;
+    color: rgb(30, 106, 222);
+}
+
+#education .schools {
+    margin-bottom: 30px;
+    border-left: 4px solid rgb(30, 106, 222);  
+    padding-left: 20px;
+}
+
+#education h4 {
+    margin-bottom: 5px;
+}
+
+#education .duration {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/*contact.html:*/
+
+#contacts {
+    padding: 20px;
+    color: rgb(30, 106, 222);
+}
+
+#contacts .source {
+    margin-bottom: 30px;
+    border-left: 4px solid rgb(30, 106, 222);  
+    padding-left: 20px;
+}
+
+#contacts h4 {
+    margin-bottom: 5px;
+}
+
+#source .info {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/*projects.html*/
+#projects {
+    padding: 20px;
+    color: rgb(30, 106, 222);
+}
+
+.project {
+    margin-bottom: 30px;
+    border-left: 4px solid rgb(30, 106, 222);
+    padding-left: 20px;
+}
+
+.project h4 {
+    font-size: calc(16px + 0.5vw);
+    margin-bottom: 15px;
+}
+
+#calculator {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+#calc-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first-number, #second-number {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid rgb(30, 106, 222);
+    border-radius: 4px;
+    font-size: calc(14px + 0.2vw);
+}
+
+#calculator-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#calculator-buttons button {
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: calc(16px + 0.3vw);
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(30, 106, 222);
+    color: white;
+    cursor: pointer;
+}
+
+#calculator-buttons button:hover {
+    background-color: rgb(25, 82, 173);
+}
+
+
+#output {
+    min-height: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: calc(18px + 0.4vw);
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    header {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    
+    #sidebar, #content {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    #wrapper {
+        flex-direction: column;
+        width: 70%;  
+        margin: 0 auto;
+    }
+
+    header {
+        width: 70%;  
+        margin: 0 auto;  
+    }
+
+    #sidebar {
+        width: 100%;  
+        height: auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main {
+        width: 100%;  
+    }
+
+
+
+    nav ul li {
+        display: flex;
+        justify-content: center;
+        margin : 0 10px;
+        padding: 10px;
+        margin:0;
+        width: auto;
+    }
+
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+        color: #06202f;
+        background-color: white;
+        font-weight: bold;
+        padding: 10px 15px;
+        border: 2px solid black;
+    }
+
+    
+    #calculator {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    #calculator-buttons {
+        padding: 10px;
+    }
+
+    #calculator-buttons button {
+        padding: 12px 20px;
+        font-size: calc(14px + 0.2vw);
+    }
+
+    #first-number, #second-number {
+        width: 90%;
+        padding: 10px;
+    }
+    
+
+}
+
+
+    

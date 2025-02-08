@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en"></html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <title> Projects | Jason Anghad</title>
+    </head>
+
+    <body>
+        <script src="main.js"></script>
+        <header>
+            <h1>Jason Anghad</h1>
+            <p>My Personal Website</p>
+        </header>
+
+        <div id="wrapper"> 
+            <div id="sidebar">
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="education.html">Education</a></li>
+                        <li> <a href="work-experience.html">Work Experience</a></li>
+                        <li> <a href="projects.html">Projects</a></li>
+                        <li> <a href="skills.html">Skills</a></li>
+                        <li> <a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+                <main>
+                    <h3>Projects</h3>
+
+                    <div id="projects">
+                        <div class="project">
+                            <h4>Temperature Sensor</h4>
+                            <ul class="project-description">
+                                <li>Designed and 3D printed an enclosure that measured and displayed the temperature in a given room</li>
+                                <li>Developed code which would cause the buzzer in the enclosure to play a tune when above a certain temperature threshold</li>
+                            </ul>
+                        </div>
+                
+                        <div class="project">
+                            <h4>Overhead Touchless Directable Light</h4>
+                            <ul class="project-description">
+                                <li>Assigned tasks to teammates in coding and designing different aspects of the overhead light source</li>
+                                <li>Developed code that would regulate the brightness of the light source given the brightness in the 
+                                    room and rotate the light source when given voice commands</li>
+                                <li>Collaborated on code that would create a spotlight and blue light feature</li>
+                            </ul>
+                        </div>
+                
+                        <div class="project">
+                            <h4>Opening Weekend Box Office Predictor</h4>
+                            <ul class="project-description">
+                                <li>Developed a model to estimate the box office performance of upcoming movies using sentiment 
+                                    analysis on social media and review data</li>
+                                <li>Collected and pre-processed data from platforms like Twitter and YouTube, applying NLP techniques to classify 
+                                    sentiments as positive, negative, or neutral</li>
+                                <li>Utilized regression models to predict box office revenue based on sentiment scores and online engagement metrics</li>
+                            </ul>
+                        </div>
+                
+                        <div id="calculator">
+                            <h4>JavaScript Calculator</h4>
+                            <div id="calc-inputs">
+                                <input id="first-number" type="text">
+                                <input id="second-number" type="text">
+                                <div id="calculator-buttons">
+                                    <button onclick="addition()">+</button>
+                                    <button onclick="subtraction()">-</button>
+                                    <button onclick="multiplication()">*</button>
+                                    <button onclick="division()">/</button>
+                                    <button onclick="power()">**</button>
+                                    <button onclick="clearCalculator()">Clear</button>
+                                </div>
+                                <div id="output"></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+        </div> 
+
+        <footer>
+            <p>All rights reserved: <a href="">Credits</a> &#169;</p>
+        </footer>
+    </body>
+</html>
