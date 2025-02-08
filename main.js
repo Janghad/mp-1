@@ -17,7 +17,7 @@ function addition() {
     }
 }
 
-function substaction() {
+function subtraction() {
     
     let first = document.getElementById("first-number").value;
     first = Number(first);
